@@ -1,3 +1,7 @@
+[[example]]
+name = "hello_world_redis"
+path = "examples/hello_world_redis.rs"
+
 [package]
 name = "redis_rs"
 version = "0.1.0"
