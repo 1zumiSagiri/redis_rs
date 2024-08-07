@@ -1,6 +1,7 @@
 use bytes::Bytes;
 use dashmap::DashMap;
-use mini_redis::{Connection, Frame};
+use mini_redis::Frame;
+use redis_rs::connection::Connection;
 use std::sync::Arc;
 use tokio::net::{TcpListener, TcpStream};
 use tracing::{debug, info, instrument};
